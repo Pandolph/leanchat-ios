@@ -702,7 +702,7 @@
 		7059DCE81ACE4ECE009D17AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7059DCE91ACE4ECE009D17AB /* LeanChatLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanChatLibTests.m; sourceTree = "<group>"; };
 		7059E7131ACE5650009D17AB /* LeanChatLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanChatLib-Prefix.pch"; sourceTree = "<group>"; };
-		70B2939C1ACE923400FE265E /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		70B2939C1ACE923400FE265E /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = text; path = .DS_Store; sourceTree = "<group>"; };
 		70B2990F1ACE9A0600FE265E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		70B299111ACE9A0B00FE265E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		70B299131ACE9A1200FE265E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -1702,7 +1702,7 @@
 		7059DCCE1ACE4ECE009D17AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = avoscloud;
 				TargetAttributes = {
 					7059DCD61ACE4ECE009D17AB = {
@@ -2007,7 +2007,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2057,7 +2057,6 @@
 		7059DCEE1ACE4ECE009D17AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2082,7 +2081,6 @@
 		7059DCEF1ACE4ECE009D17AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
